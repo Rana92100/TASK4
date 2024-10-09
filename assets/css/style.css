@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header img{
+    height: 100vh;
+}
+/* colors */
+.information , .button-nav ,.cora-button .active , .part1 .line , .part2 .line , .button-part2 , .part4 .line , .part5 .line , .button-part5, .part3 .line {
+    background-color:rgb(63 186 191) !important;
+}
+.cora-button button{
+    width: 10px !important;
+    height: 10px !important;
+}
+ul li .home , .part5 a , .part6 .Span{
+    color: rgb(63 186 191);
+}
+.bg-color{
+    background-color:rgb(242 243 245 / 88%);
+    border-top: 5px solid rgb(63 186 191);
+}
+.part2 , .part4 , .part6{
+    background-color: rgb(247 253 253);
+}
+/* size photo */
+.photo-nav{
+    width: 200px;
+    height: 50px;
+}
+.part1 .line , .part2 .line , .part4 .line , .part5 .line , .part3 .line{
+    width: 60px;
+    height: 4px;
+}
+.part6 .photoo{
+    width: 50px;
+    height: 50px;
+    border: 1px  rgb(109, 106, 106) solid;
+}
+.Icon{
+    width: 80px;
+    height: 80px;
+    border: 2px dotted rgb(63 186 191);
+}
+.part6 .Link , .part3 a{
+    color: rgb(109, 106, 106);
+}
+.part6 .line-footer{
+    border-bottom: 3px  rgb(109, 106, 106) solid;
+}
+.part3 .bord{
+    border-right: 1px solid  rgb(88, 87, 87);
+}
+
+.part3 button:focus{
+    color: rgb(63 186 191);
+    border-right: 5px solid rgb(63 186 191);
+}
+@media(max-width : 567px){
+    .photo-nav{
+        width: 150px;
+        height: 30px;
+    }
+    .part2 .button-part2 , .part5 .button-part5{
+        min-width: 180px !important;
+    }
+    .part5 h5{
+        font-size: 15px;
+    }
+}
